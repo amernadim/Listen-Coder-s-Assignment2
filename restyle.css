@@ -1,0 +1,133 @@
+@media (min-width: 300px) and (max-width: 820px) {
+
+  /*     header part style     */
+
+    .toggle{
+      display: block;
+      color: rgb(0, 0, 0);
+      margin: 0 32px;
+      line-height: 80px;
+      font-size: 32px;
+      float: right;
+
+    }
+
+    ul{
+      position: fixed;
+      text-align: center;
+      width: 100%;
+      background-color: #D7DBDD ;
+      top: 80px;
+      right: -100%;
+      transition: all 0.5s;
+    }
+    #checkbox:checked ~ ul{
+      right: 0;
+    }
+
+    nav ul{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo{
+      width: 100%;
+      margin-left: 10%;
+     
+    }
+    .logo img{
+      height: 70px;
+      width: 150px;
+      margin: auto;
+  }
+  header{
+    height: auto;
+  }
+  .btmHeader{
+     display: flex;
+     flex-direction: column;
+     margin-right: 5%;
+     height: auto;
+     margin-top: 10%;
+     padding: 2%;
+    
+  
+  }
+  .imgdiv{
+    border-radius: 150px;
+    height: 250px;
+    width: 250px;
+  }
+  .imgdiv img {
+    height: 290px;
+    width: 290px;
+  }
+  .txtdiv {
+    margin-top: 20%;
+  }
+  .txtdiv h1{
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .txtdiv p {
+    font-size: 14px;
+    font-weight: 500;
+    
+  }
+
+    /*     main part style     */
+    main {
+      padding-top: 6%;
+    }
+
+    .secOne{
+      display: flex;
+      flex-direction: column;
+      
+    }
+  .secOne .card{
+    width: 95%;
+    height: auto;
+
+  }
+  .secOne .card img {
+    height: 250px;
+    width: auto;
+    margin-bottom: 5px;
+  }
+
+  /* custom part style */
+  .cstm {
+    display: flex;
+    flex-direction: column;
+  }
+  .txt p {
+    text-align: unset;
+
+  }
+  
+
+
+
+    /*     footer part style     */
+    footer div {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      padding: 20px;
+      font-size: small;
+    }
+  }
+
+@media (min-width: 300px) and (max-width: 420px) {
+   .btmHeader{
+    margin-right: 5%;
+    margin-top: 15%; 
+ }
+ .txtdiv {
+  margin-top: 30%;
+  padding: 2%;
+}
+
+} 

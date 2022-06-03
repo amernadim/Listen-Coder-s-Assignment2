@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    display: flex;
+    flex-direction: column;
+    min-height: auto;
+    font-family: 'Roboto', sans-serif;
+    
+  }
+  .btn {
+    padding: 15px;
+    color: white;
+    background-color: blue;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  
+
+  /*     header part style     */
+
+  header{
+     height: 100vh;
+     background-color: #D7DBDD ;
+     width: 100%;
+
+  }
+    
+  nav{
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 75px;
+    width: 100%;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: #D7DBDD ;
+    
+  }
+
+  .logo{
+    width: 40%;
+    margin-left: 8%;
+   
+  }
+  .menu{
+      margin-right: 8%;
+  }
+
+  .logo img{
+      height: 75px;
+      width: 200px;
+      margin: auto;
+  }
+     
+  nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+  nav ul li{
+    list-style: none;
+    line-height: 80px;
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 0 32px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+   nav ul li a:hover{
+    line-height: 80px;
+    background-color: rgb(5, 5, 5);
+    color: white;
+  }
+
+  .toggle{
+    display: none;
+  }
+
+  #checkbox{
+    display: none;
+  }
+
+  /* nav part end */
+
+  .btmHeader{
+    margin-top: 10%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80vh;
+    margin-right: 8%;
+    
+  }
+  .imgdiv {
+    background-color: rgb(255, 170, 0);
+    border-radius: 150px;
+    height: 290px;
+    width: 290px;
+    margin: auto;   
+    margin-top: 30px; 
+  }
+
+  .imgdiv img {
+    height: 390px;
+    width: 390px;
+    margin: auto;
+  }
+  .txtdiv {
+    margin-top: 10%;
+  }
+  .txtdiv h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+  }
+  .txtdiv h1 span {
+    color: rgb(255, 170, 0);
+
+  }
+  .txtdiv p {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+
+
+    /*     main part style     */
+
+    main {
+      padding: 0 8%;
+      /* background-color: #D7DBDD ; */
+      width: 100%;
+      height: auto;
+    }
+    main h1 {
+      padding-top: 5%;
+      font-size: 25px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    .secOne{
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+    }
+    .secOne .card {
+      height: auto;
+      width: 30%;
+      box-shadow: 10px 10px 10px 10px gray;
+      background-color: white;
+      overflow: hidden;
+      padding: 15px;
+    }
+    .secOne .card img {
+      height: 350px;
+      width: auto;
+      margin-bottom: 5px;
+    }
+    .secOne .card h2{
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 5px;
+
+    }
+    .secOne .card p {
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+    .secOne .card div {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+    .secOne .card div h3 {
+      font-size: 25px;
+      font-weight: 700;
+      color: indianred;
+      margin-top: 5px;
+    }
+
+    /* custom part style */
+    .cstm {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 10% 8%;
+      gap: 10px;
+     
+
+    }
+    .secCstm{
+      display: flex;
+      flex-direction: column;
+
+    }
+    .cstm img{
+      height:90%;
+      width: 90%;
+
+    }
+    .secCstm .crd{
+      display: flex;
+      flex-direction: row;
+      background-color: aquamarine;
+      height: auto;
+      margin-top: 10px;
+      padding: 5px;
+      width: 80%;
+
+    }
+    .secCstm .crd i {
+      font-size: 50px;
+      padding: 5px;
+
+    }
+    .secCstm .crd .txt {
+      display: flex;
+      flex-direction: column;
+      padding: 5px;
+      margin-left: 6px;
+
+    }
+    .txt h3{
+      font-size: 20px;
+      text-align: justify;   
+
+    }
+   .txt p {
+    font-size: 14px;
+    text-align: justify;
+
+  }
+
+
+
+    /*     footer part style     */
+    footer{
+      color: white;
+      background-color: black;
+      display: flex;
+      justify-content: space-between;
+      height: auto;
+      margin-top: auto;
+    }
+    footer div {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px;
+    }
+    footer div p {
+      margin-right: 10px;
+    }
+    footer div p a{
+      text-decoration: none;
+      color: white;
+    }
+    footer div p a i {
+      color: white;
+    }
